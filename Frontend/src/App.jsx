@@ -5,6 +5,7 @@ import About from './components/About.jsx'
 import Navbar from './components/Navbar.jsx'
 import Projects from './components/Projects.jsx'
 import Playground from './components/Playground.jsx'
+import Blog from './components/Blog.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/playground" element={<Playground />} />
         </Routes>
       </div>
